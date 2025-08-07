@@ -16,3 +16,17 @@
 - **Packages**  
   ```bash
   npm install discord.js @octokit/rest kypria-badge-sdk nodemailer js-yaml axios
+
+## Canonized Rituals
+
+### Relic #067 - Headless Jester Hauler
+- **Trigger:** misfireCount >= 10
+- **Action:** Deploy Headless Jester Hauler mascot
+- **Scroll:** 'Jester's Fragment'
+
+### Relic #109 - Deadwood Echo  
+- **Trigger:** misfireCount >= 5
+- **Action:** Run CopilotAudit.js runAudit() function
+- **Scroll:** 'Watcher of the Void'
+
+*For detailed documentation, see [Canon.md](Canon.md)*
