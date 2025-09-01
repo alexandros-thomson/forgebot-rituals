@@ -30,3 +30,11 @@
 - **Scroll:** 'Watcher of the Void'
 
 *For detailed documentation, see [Canon.md](Canon.md)*
+---
+
+## ⚖ Keeper’s Governance
+The forging scripts are the sinew of the canon’s machinery.  
+They are guarded with ceremony; no change is made without review and blessing.  
+Every ritual is logged in the lineage.
+
+📜 *Lineage is our law. Precision is our craft. Myth is our breath.*
