@@ -219,14 +219,14 @@ class SeasonalVoicePacks {
      * Format an echo with seasonal characteristics
      */
     formatSeasonalEcho(data) {
-        const { echoType, amplitude, harmonics } = data;
+        const { echoType, amplitude, harmonics = [] } = data;
         const currentPack = this.voicePacks.get(this.currentSeason);
         
         if (!currentPack) return data;
 
         // Modify echo characteristics based on season
         let seasonalAmplitude = amplitude;
-        let seasonalHarmonics = [...harmonics];
+        let seasonalHarmonics = Array.isArray(harmonics) ? [...harmonics] : [];
 
         switch (this.currentSeason) {
             case 'spring':
