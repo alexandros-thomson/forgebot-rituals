@@ -1,0 +1,36 @@
+{
+  "name": "forgebot-rituals",
+  "version": "2.0.0",
+  "description": "Multi-bot orchestration system for Kypria Codex alignment with ForgeBot, ScrollBot, EchoBot, and SeasonalVoicePacks",
+  "main": "MultiBotOrchestration.js",
+  "scripts": {
+    "start": "node MultiBotOrchestration.js",
+    "test": "node test/orchestration-test.js",
+    "demo": "DEMO_MODE=true node MultiBotOrchestration.js"
+  },
+  "dependencies": {
+    "discord.js": "^13.0.0",
+    "@octokit/rest": "^18.0.0",
+    "kypria-badge-sdk": "^1.0.0",
+    "nodemailer": "^6.0.0",
+    "js-yaml": "^4.0.0",
+    "axios": "^0.27.0"
+  },
+  "keywords": [
+    "forgebot",
+    "kypria",
+    "orchestration",
+    "multi-bot",
+    "ritual",
+    "shrine",
+    "echo",
+    "scroll",
+    "seasonal"
+  ],
+  "author": "Kypria Codex Collective",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexandros-thomson/forgebot-rituals.git"
+  }
+}
